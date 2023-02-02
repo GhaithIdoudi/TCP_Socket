@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  server:
+    build: ./server
+    ports:
+      - 9898:9898
+  client:
+    build: ./Client
+    ports: 
+      - 9898:9898
+
+
+
